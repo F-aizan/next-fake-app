@@ -34,8 +34,8 @@ interface Product {
             setProducts(reducedproducts)
             setLoading(false)
           }
-          fetchProducts()
         }
+        fetchProducts()
     }, [])
 
     return (
