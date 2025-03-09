@@ -1,26 +1,26 @@
 'use client'
 import { useEffect, useState } from "react";
 
-interface Quote {
-    albumId: number,
-    title: string;
-    id: number;
-    url: string,
-    brand: string,
-    thumbnail: string,
-    description: string,
-    availabilityStatus: string,
-    body: string,
-    price: number,
-    quote: string,
-    author: string
-  }
+//interface Quote {
+//     albumId: number,
+//     title: string;
+//     id: number;
+//     url: string,
+//     brand: string,
+//     thumbnail: string,
+//     description: string,
+//     availabilityStatus: string,
+//     body: string,
+//     price: number,
+//     quote: string,
+//     author: string
+//   }
   
-  interface QuoteType {
-    quotes: Quote[];
-  }
+//   interface QuoteType {
+//     quotes: Quote[];
+//   }
   
-  let QuoteCard = () => {
+  const QuoteCard = () => {
       const [quotes, setQuotes] = useState([])
 
     useEffect(() => {

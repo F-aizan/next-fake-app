@@ -1,24 +1,24 @@
 'use client'
 import { useEffect, useState } from "react";
 
-interface Post {
-    albumId: number,
-    title: string;
-    id: number;
-    url: string,
-    brand: string,
-    thumbnail: string,
-    description: string,
-    availabilityStatus: string,
-    body: string,
-    price: number
-  }
+// interface Post {
+//     albumId: number,
+//     title: string;
+//     id: number;
+//     url: string,
+//     brand: string,
+//     thumbnail: string,
+//     description: string,
+//     availabilityStatus: string,
+//     body: string,
+//     price: number
+//   }
   
-  interface productType {
-    posts: Post[];
-  }
+//   interface postType {
+//     posts: Post[];
+//   }
   
-  let PostCard = () => {
+  const PostCard = () => {
     const [posts, setPosts] = useState([])
 
   useEffect(() => {

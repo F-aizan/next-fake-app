@@ -1,21 +1,21 @@
 'use client'
 import { useEffect, useState } from "react";
 
-interface Recipe {
-    cuisine: string,
-    difficulty: string,
-    image: string,
-    ingredients: [],
-    instructions: [],
-    mealType: [],
-    name:string,
-  }
+// interface Recipe {
+//     cuisine: string,
+//     difficulty: string,
+//     image: string,
+//     ingredients: [],
+//     instructions: [],
+//     mealType: [],
+//     name:string,
+//   }
   
-  interface RecipeType {
-    recipes: Recipe[];
-  }
+//   interface RecipeType {
+//     recipes: Recipe[];
+//   }
   
-  let RecipeCard = () => {
+  const RecipeCard = () => {
       const [recipes, setRecipes] = useState([])
 
     useEffect(() => {
